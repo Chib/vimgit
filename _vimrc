@@ -71,6 +71,10 @@ nunmap <C-Y>
 "make Y act in a more logical manner just as C and D does
 map Y y$
 
+"tab and shift-tab to go through the tabs
+nmap <Tab> gt
+nmap <S-Tab> gT
+
 "syntax highlighting for html in string in php files
 let php_htmlInStrings = 1
 
