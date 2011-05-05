@@ -59,6 +59,12 @@ set wildmenu
 "set default colour scheme to neverland-darker-c
 colorscheme neverland-darker-c
 
+"set the font
+set guifont=Droid\ Sans\ Mono\ Slashed:h10
+
+"turn highlighting of the cursor line on
+set cursorline
+
 "set the maximum number of tabs to 50
 set tabpagemax=50
 
@@ -77,9 +83,6 @@ nmap <S-Tab> gT
 
 "syntax highlighting for html in string in php files
 let php_htmlInStrings = 1
-
-"set the font
-set guifont=Droid\ Sans\ Mono\ Slashed:h10
 
 "set relativenumbers
 set relativenumber
