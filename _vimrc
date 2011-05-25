@@ -93,6 +93,9 @@ set dir=C:\\Documents\ and\ Settings\\cpfitzne\\My\ Documents\\Vim\\vimfiles\\sw
 "turn on spell checking
 set spell
 
+"make ~ an operator so you can use movement commands on it
+set tildeop
+
 "map <C-L> to disable search highlighting
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
