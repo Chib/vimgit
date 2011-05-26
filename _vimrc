@@ -34,7 +34,7 @@ endfunction
 """""""""""""""""""""
 
 "change the window size from the default of 50/100
-set lines=70 columns=120
+set lines=70 columns=140
 
 "window size modifier bindings
 "map <F9> :set lines-=1<CR> "decrease height by 1 line
