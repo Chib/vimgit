@@ -9,11 +9,22 @@ snippet proto
 	function(${3:first_argument}) {
 		${4:// body...}
 	};
-# Function
-snippet fun
-	function ${1:function_name}(${2:argument})
+# Function Commented With One Argument
+snippet fun1
+	/* function ${1:function_name}(${2:argument}) *
+	 *                                                                            *
+	 * Use:                                                                       *
+	 * ${3:description} *
+	 *                                                                            *
+	 * Arguments:                                                                 *
+	 * $2 - ${4:argument_description} *
+	 *                                                                            *
+	 * Returns:                                                                   *
+	 * ${5:return_description} */
+
+	function $1($2)
 	{
-		${3:// body...}
+		${6}
 	}
 # Anonymous Function
 snippet f
