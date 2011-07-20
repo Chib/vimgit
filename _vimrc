@@ -101,3 +101,7 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 "for surround plugin, lets us surround stuff with the php thingy
 autocmd FileType php let b:surround_45 = "<?php \r ?>"
+
+"swap the mark mapping keys
+noremap ` '
+noremap ' `
