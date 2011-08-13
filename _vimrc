@@ -81,6 +81,9 @@ map Y y$
 nmap <Tab> gt
 nmap <S-Tab> gT
 
+"map <C-v> to <C-r>* so pasting with <C-v> in replace mode overwrites properly
+imap <C-v> <C-r>*
+
 "syntax highlighting for html in string in php files
 let php_htmlInStrings = 1
 
