@@ -60,7 +60,7 @@ set wildmenu
 colorscheme neverland-darker-c
 
 "set the font
-set guifont=Droid\ Sans\ Mono\ Slashed:h10
+set guifont=DejaVu\ Sans\ Mono
 
 "turn highlighting of the cursor line on
 set cursorline
