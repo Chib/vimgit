@@ -66,7 +66,6 @@ set guifont=DejaVu\ Sans\ Mono
 set cursorline
 set cursorcolumn
 
-
 "set the maximum number of tabs to 50
 set tabpagemax=50
 
