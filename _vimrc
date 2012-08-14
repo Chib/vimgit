@@ -62,8 +62,10 @@ colorscheme neverland-darker-c
 "set the font
 set guifont=DejaVu\ Sans\ Mono
 
-"turn highlighting of the cursor line on
+"turn highlighting of the cursor line & column on
 set cursorline
+set cursorcolumn
+
 
 "set the maximum number of tabs to 50
 set tabpagemax=50
