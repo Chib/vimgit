@@ -109,3 +109,6 @@ autocmd FileType php let b:surround_45 = "<?php \r ?>"
 "swap the mark mapping keys
 noremap ` '
 noremap ' `
+
+"set encoding
+set encoding=utf-8
